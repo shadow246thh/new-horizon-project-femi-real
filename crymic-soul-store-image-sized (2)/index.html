@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CRYMIC SOUL — considered streetwear for the quietly confident. Shop the latest drop.">
+  <meta name="theme-color" content="#11110f">
+  <title>CRYMIC SOUL — Wear Your Quiet Confidence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://js.paystack.co/v1/inline.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">THE NEW DROP IS HERE — SHOP CRYMIC SOUL <span>✳</span> SHIPPING ACROSS NIGERIA</div>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Crymic Soul home">CRYMIC<span>SOUL</span><sup>®</sup></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">Home</a><a href="#story">Our story</a><a href="#shop">Shop</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="bag-button" id="openBag">BAG <span id="bagCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-art" aria-hidden="true"><div class="hero-orb"></div><div class="hero-type">CS<br><i>26</i></div></div>
+      <div class="hero-content">
+        <p class="eyebrow">INDEPENDENT STREETWEAR / EST. 2026</p>
+        <h1>Wear your<br><em>own energy.</em></h1>
+        <p class="hero-copy">Not made to fit in. Designed for the ones who move differently. Find your next uniform.</p>
+        <a class="button button-light" href="#shop">Shop the drop <span>↗</span></a>
+      </div>
+      <div class="hero-index"><span>01 — THE NEW UNIFORM</span><span>LAGOS / NIGERIA</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Brand statement"><div>LESS NOISE ✳ MORE SOUL ✳ MOVE DIFFERENT ✳ LESS NOISE ✳ MORE SOUL ✳ MOVE DIFFERENT ✳</div></section>
+
+    <section class="intro section-pad" id="story">
+      <div class="section-kicker">01 — THE LABEL</div>
+      <div class="intro-grid">
+        <h2>Made for the<br><em>in-between.</em></h2>
+        <div class="intro-text">
+          <p>CRYMIC SOUL is an independent streetwear label built around self-expression, quiet confidence and pieces that feel like you.</p>
+          <p>We believe style is personal. Our pieces are designed to be worn your way, repeated, remixed and lived in.</p>
+          <a class="text-link" href="#shop">Find your piece <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="campaign">
+      <div class="campaign-visual"><span class="campaign-stamp">CRYMIC<br>SOUL®</span><span class="campaign-caption">NOT HERE TO BLEND IN.</span></div>
+      <div class="campaign-copy"><p class="eyebrow">THE CRYMIC STATE OF MIND</p><h2>Clothing is a feeling.<br><em>Make it yours.</em></h2><p>Strong foundations. Individual energy. No unnecessary noise.</p><a class="text-link" href="#shop">Explore the pieces ↗</a></div>
+    </section>
+
+    <section class="shop section-pad" id="shop">
+      <div class="section-kicker">02 — SHOP THE DROP</div>
+      <div class="section-heading"><div><p class="eyebrow">CRYMIC SOUL / DROP 001</p><h2>Current <em>rotation.</em></h2></div><p>Small details. Big energy. Choose your piece and make it yours.</p></div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="shop-note">Product availability and final delivery fees are confirmed before dispatch. Need help choosing? <a href="#contact">Talk to us.</a></p>
+    </section>
+
+    <section class="values">
+      <div class="value"><span>01</span><h3>Own your identity</h3><p>Wear what feels like you. No rules, no uniform required.</p></div>
+      <div class="value"><span>02</span><h3>Made for real life</h3><p>Easy pieces for everyday movement and repeat wear.</p></div>
+      <div class="value"><span>03</span><h3>Move differently</h3><p>Independent energy for people writing their own story.</p></div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="section-kicker">03 — GET IN TOUCH</div>
+      <div class="contact-grid">
+        <div class="contact-copy"><p class="eyebrow">QUESTIONS / COLLABS / ORDERS</p><h2>Let's talk<br><em>properly.</em></h2><p>Need sizing help, want to ask about a product or have a collaboration in mind? Send us a message.</p>
+          <div class="contact-details">
+            <p><span>EMAIL</span><a href="mailto:ojelekefemi@gmail.com">ojelekefemi@gmail.com</a></p>
+            <p><span>WHATSAPP</span><a href="https://wa.me/2347018022431" target="_blank" rel="noopener">+234 701 802 2431</a></p>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label for="fullName">Your name</label><input id="fullName" name="fullName" required placeholder="Name">
+          <label for="email">Email address</label><input id="email" name="email" type="email" required placeholder="you@example.com">
+          <label for="message">Message</label><textarea id="message" name="message" rows="4" required placeholder="What's on your mind?"></textarea>
+          <button class="button button-dark" type="submit">Send on WhatsApp <span>↗</span></button>
+          <p class="form-feedback" id="formFeedback" role="status">Your message opens in WhatsApp so you can send it directly.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home">CRYMIC<span>SOUL</span><sup>®</sup></a>
+    <p>Wear your own energy.</p>
+    <div class="footer-bottom"><span>© <span id="year"></span> CRYMIC SOUL</span><a href="#home">BACK TO TOP ↑</a></div>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="bag-drawer" id="bagDrawer" aria-label="Shopping bag" aria-hidden="true">
+    <div class="drawer-head"><div><p class="eyebrow">YOUR SELECTION</p><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button class="icon-button" id="closeBag" aria-label="Close bag">×</button></div>
+    <div class="bag-items" id="bagItems"></div>
+    <div class="bag-footer"><div class="subtotal"><span>Subtotal</span><strong id="subtotal">₦0</strong></div><p class="shipping-note">Delivery fee is confirmed based on your location.</p><button class="button button-dark full" id="checkoutButton">Continue to checkout</button><button class="text-link continue-shopping" id="continueShopping">Continue shopping</button></div>
+  </aside>
+
+  <div class="modal-backdrop" id="checkoutBackdrop">
+    <section class="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+      <div class="drawer-head"><div><p class="eyebrow">ALMOST YOURS</p><h2 id="checkoutTitle">Checkout</h2></div><button class="icon-button" id="closeCheckout" aria-label="Close checkout">×</button></div>
+      <form id="checkoutForm" class="checkout-form">
+        <div class="checkout-summary" id="checkoutSummary"></div>
+        <div class="field-grid">
+          <div><label for="customerName">Full name</label><input id="customerName" name="name" required autocomplete="name"></div>
+          <div><label for="customerEmail">Email</label><input id="customerEmail" name="email" type="email" required autocomplete="email"></div>
+          <div><label for="customerPhone">Phone / WhatsApp</label><input id="customerPhone" name="phone" type="tel" required autocomplete="tel"></div>
+          <div><label for="customerCity">City / State</label><input id="customerCity" name="city" required placeholder="e.g. Lagos, Lagos"></div>
+        </div>
+        <label for="customerAddress">Delivery address</label><textarea id="customerAddress" name="address" rows="2" required autocomplete="street-address"></textarea>
+        <label for="orderNote">Order note <span class="optional">(optional)</span></label><textarea id="orderNote" name="note" rows="2" placeholder="Any extra details?"></textarea>
+        <div class="checkout-total"><span>Order total</span><strong id="checkoutTotal">₦0</strong></div>
+        <button class="button button-dark full" id="payButton" type="button">Pay securely with Paystack</button>
+        <button class="button button-whatsapp full" id="whatsappCheckout" type="button">Order via WhatsApp instead</button>
+        <p class="secure-note">Online card/bank payment is processed by Paystack. WhatsApp orders are confirmed manually by CRYMIC SOUL.</p>
+        <p class="form-feedback" id="checkoutFeedback" role="status"></p>
+      </form>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
